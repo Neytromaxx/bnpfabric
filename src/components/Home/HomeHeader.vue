@@ -142,7 +142,7 @@ export default {
     .last-element{
         width: 1450px;
         height: 300px;
-        margin: 150px 0px 60px 0px;
+        margin: 150px 0px 80px 0px;
         border: 1px solid #616884;
         border-radius: 1rem;
         background-color: #616884;
