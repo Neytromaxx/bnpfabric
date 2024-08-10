@@ -115,13 +115,13 @@ export default {
     .container{
         margin: 0 auto;
         max-width: 1450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
     .cleaner{
         clear: both;
     }
     .header{
-        margin-top: 60px;
+        margin-top: 100px;
         line-height: 10px;
     }
     .section{
@@ -147,7 +147,12 @@ export default {
         border: 1px solid #f8f8f8;
         border-radius: 1rem;
     }
-
+    .section .list a p{
+        font-weight: bold;
+    }
+    .section .list a p:hover{
+        color: #f42c37;
+    }
     .last-element{
         width: 1450px;
         height: 300px;

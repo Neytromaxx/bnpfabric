@@ -5,10 +5,10 @@
     </div>
     <div class="navbar-list">
         <ul>
-            <li>Home</li>
-            <li>Collection</li>
-            <li>About us</li>
-            <li>Contact</li>
+            <li><router-link to="/">Home</router-link> </li>
+            <li><router-link to="/collection">Collection</router-link> </li>
+            <li><router-link to="/about">About us</router-link> </li>
+            <li><router-link to="/contact">Contact</router-link> </li>
         </ul>
     </div>
   </div>

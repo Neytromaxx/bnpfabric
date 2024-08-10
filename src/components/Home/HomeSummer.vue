@@ -99,39 +99,45 @@
   </script>
   
   <style scoped>
-      .container{
-          margin: 0 auto;
-          max-width: 1450px;
-          border: 2px solid black;
-      }
-      .cleaner{
-          clear: both;
-      }
-      .header{
-          margin-top: 60px;
-          line-height: 10px;
-      }
-      .section{
-          width: 1450px;
-          height: 550px;
-          margin-top: 35px;
-      }
-      .section .list{
-          list-style: none;
-      }
-      .section .list .list-items{
-          float: left;
-      }
-      .section .list a{
-          text-decoration: none;
-          color: #000;
-          text-align: left;
-      }
-      .section .list a img{
-          width: 260px;
-          height: 170px;
-          margin: 35px 18px 0px 0px;
-          border: 1px solid #f8f8f8;
-          border-radius: 1rem;
-      }
+    .container{
+        margin: 0 auto;
+        max-width: 1450px;
+        /* border: 2px solid black; */
+    }
+    .cleaner{
+        clear: both;
+    }
+    .header{
+        margin-top: 100px;
+        line-height: 10px;
+    }
+    .section{
+        width: 1450px;
+        height: 550px;
+        margin-top: 35px;
+    }
+    .section .list{
+        list-style: none;
+    }
+    .section .list .list-items{
+        float: left;
+    }
+    .section .list a{
+        text-decoration: none;
+        color: #000;
+        text-align: left;
+    }
+    .section .list a img{
+        width: 260px;
+        height: 170px;
+        margin: 35px 18px 0px 0px;
+        border: 1px solid #f8f8f8;
+        border-radius: 1rem;
+    }
+    .section .list a p{
+        font-weight: bold;
+    }
+    .section .list a p:hover{
+        color: #f42c37;
+    }
   </style>

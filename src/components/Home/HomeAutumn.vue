@@ -112,93 +112,98 @@
   </script>
   
   <style scoped>
-      .container{
-          margin: 0 auto;
-          max-width: 1450px;
-          border: 2px solid black;
-      }
-      .cleaner{
-          clear: both;
-      }
-      .header{
-          margin-top: 60px;
-          line-height: 10px;
-      }
-      .section{
-          width: 1450px;
-          height: 550px;
-          margin-top: 35px;
-      }
-      .section .list{
-          list-style: none;
-      }
-      .section .list .list-items{
-          float: left;
-      }
-      .section .list a{
-          text-decoration: none;
-          color: #000;
-          text-align: left;
-      }
-      .section .list a img{
-          width: 260px;
-          height: 170px;
-          margin: 35px 18px 0px 0px;
-          border: 1px solid #f8f8f8;
-          border-radius: 1rem;
-      }
-  
-      .last-element{
-          width: 1450px;
-          height: 300px;
-          margin: 150px 0px 80px 0px;
-          border: 1px solid #616884;
-          border-radius: 1rem;
-          background-color: #616884;
-          color: #fbfbfc;
-          position: relative;
-      }
-      .last-element-left{
-          text-align: left;
-          line-height: 0px;
-          position: absolute;
-          top: 80px;
-          left: 200px;
-      }
-      .last-element-left .text-100{
-          font-size: 80px;
-      }
-      .last-element-left .text{
-          font-size: 20px;
-          padding-left: 10px;
-      }
-      .last-element img{
-          width: 800px;
-          position: absolute;
-          top: -150px;
-          left: 200px;
-      }
-      .last-element-right{
-          position: absolute;
-          top: 50px;
-          right: 150px;
-      }
-      .last-element-right h2{
-          font-size: 32px;
-      }
-      .last-element-right p{
-          width: 270px;
-          text-align: left;
-          padding-left: 10px;
-      }
-      .last-element-right button{
-          width: 130px;
-          height: 35px;
-          border: 1px solid #f8f8f8;
-          border-radius: 1rem;
-          font-size: 18px;
-          position: absolute;
-          right: 250px;
-          top: 180px;
-      }
+    .container{
+        margin: 0 auto;
+        max-width: 1450px;
+        /* border: 2px solid black; */
+    }
+    .cleaner{
+        clear: both;
+    }
+    .header{
+        margin-top: 100px;
+        line-height: 10px;
+    }
+    .section{
+        width: 1450px;
+        height: 550px;
+        margin-top: 35px;
+    }
+    .section .list{
+        list-style: none;
+    }
+    .section .list .list-items{
+        float: left;
+    }
+    .section .list a{
+        text-decoration: none;
+        color: #000;
+        text-align: left;
+    }
+    .section .list a img{
+        width: 260px;
+        height: 170px;
+        margin: 35px 18px 0px 0px;
+        border: 1px solid #f8f8f8;
+        border-radius: 1rem;
+    }
+    .section .list a p{
+        font-weight: bold;
+    }
+    .section .list a p:hover{
+        color: #f42c37;
+    }
+    .last-element{
+        width: 1450px;
+        height: 300px;
+        margin: 150px 0px 80px 0px;
+        border: 1px solid #616884;
+        border-radius: 1rem;
+        background-color: #616884;
+        color: #fbfbfc;
+        position: relative;
+    }
+    .last-element-left{
+        text-align: left;
+        line-height: 0px;
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+    .last-element-left .text-100{
+        font-size: 80px;
+    }
+    .last-element-left .text{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .last-element img{
+        width: 800px;
+        position: absolute;
+        top: -150px;
+        left: 200px;
+    }
+    .last-element-right{
+        position: absolute;
+        top: 50px;
+        right: 150px;
+    }
+    .last-element-right h2{
+        font-size: 32px;
+    }
+    .last-element-right p{
+        width: 270px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .last-element-right button{
+        width: 130px;
+        height: 35px;
+        border: 1px solid #f8f8f8;
+        border-radius: 1rem;
+        font-size: 18px;
+        position: absolute;
+        right: 250px;
+        top: 180px;
+    }
   </style>
