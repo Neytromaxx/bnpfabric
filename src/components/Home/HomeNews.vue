@@ -5,38 +5,38 @@
       <p>Bukhara Natural Product</p>
     </div>
     <div class="section">
-      <ul class="list">
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/new-st.png" alt="">
-                      <div class="text">
-                          <p>05.10.2019 - by admin</p>
-                          <h2>How to choose perfect gadgets</h2>
-                          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/news-nd.png" alt="">
-                      <div class="text">
-                          <p>05.10.2019 - by admin</p>
-                          <h2>How to choose perfect gadgets</h2>
-                          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/news-rd.png" alt="">
-                      <div class="text">
-                          <p>05.10.2019 - by admin</p>
-                          <h2>How to choose perfect gadgets</h2>
-                          <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
-                      </div>
-                  </a>
-              </li>
-          </ul>
+        <ul class="list">
+            <li class="list-items">
+                <a href="">
+                    <img src="../../assets/new-st.png" alt="">
+                    <div class="text">
+                        <p>05.10.2019 - by admin</p>
+                        <h2>How to choose perfect gadgets</h2>
+                        <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
+                    </div>
+                </a>
+            </li>
+            <li class="list-items">
+                <a href="">
+                    <img src="../../assets/news-nd.png" alt="">
+                    <div class="text">
+                        <p>05.10.2019 - by admin</p>
+                        <h2>How to choose perfect gadgets</h2>
+                        <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
+                    </div>
+                </a>
+            </li>
+            <li class="list-items">
+                <a href="">
+                    <img src="../../assets/news-rd.png" alt="">
+                    <div class="text">
+                        <p>05.10.2019 - by admin</p>
+                        <h2>How to choose perfect gadgets</h2>
+                        <p>When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper s ...</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
     </div>
   </div>
 </template>
@@ -93,5 +93,21 @@ export default {
     font-size: 16px;
     letter-spacing: -1px;
   }
+@media (max-width: 451px) {
+    .container{
+        width: 450px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .header{
+        text-align: center;
+    }
+    .section{
+        max-width: 100%;
+    }
+    .list-items img{
+        max-width: 80%;
+    }
 
+}
 </style>

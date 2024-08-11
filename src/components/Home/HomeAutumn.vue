@@ -206,4 +206,33 @@
         right: 250px;
         top: 180px;
     }
+    @media(max-width: 451px) {
+        .container{
+            width: 450px;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .header{
+            text-align: center;
+        }
+        .section{
+            max-width: 90%;
+        }
+        .last-element{
+            max-width: 100%;
+        }
+        .last-element img{
+            width: 100%;
+            position: relative;
+            left: 15px;
+        }
+        .last-element-left{
+            width: 90%;
+            font-size: 5px;
+        }
+        .last-element-right{
+            width: 90%;
+        }
+
+    }
   </style>

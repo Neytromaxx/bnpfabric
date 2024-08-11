@@ -122,4 +122,23 @@ export default {
     line-height: 60px;
     text-align: left;
   }
+
+@media (max-width: 451px) {
+  .container{
+    width: 450px;
+    max-width: 100%;
+  }
+  .cleaner{
+    clear: both;
+  }
+  .elements-items{
+    text-align: left;
+  }
+  .copyright{
+    max-width: 100%;
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}
+
 </style>

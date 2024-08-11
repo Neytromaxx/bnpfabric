@@ -1,25 +1,27 @@
 <template>
   <app-navbar></app-navbar>
-  <div class="container">
-    <router-view></router-view>
-  </div>
+  <router-view></router-view>
   <app-footer></app-footer>
+  <app-sidebar></app-sidebar>
 </template>
 
 <script>
 import AppNavbar from './components/AppNavbar.vue'
 import AppFooter from './components/AppFooter.vue'
+import AppSidebar from './components/ui/AppSidebar.vue';
+
 
 export default {
   name: 'App',
   components: {
     AppNavbar,
-    AppFooter
+    AppFooter,
+    AppSidebar,
   }
 }
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

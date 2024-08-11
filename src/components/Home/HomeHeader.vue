@@ -75,7 +75,6 @@ export default {
     .container{
         margin: 0 auto;
         max-width: 1450px;
-        /* border: 2px solid black; */
     }
     .cleaner{
         clear: both;
@@ -117,7 +116,7 @@ export default {
     }
     .info{
         display: flex;
-        justify-content: space-between;
+        flex-direction: row;
         margin: 70px 0px 0px 0px;
     }
     .info-element{
@@ -192,5 +191,160 @@ export default {
         right: 250px;
         top: 180px;
     }
+
+
+@media (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        width: 767px;
+        max-width: 90%;
+    }
+    .cleaner{
+        clear: both;
+    }
+
+    .element {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+
+    .element img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 45px;
+        right: 35px;
+    }
+
+    .element-small-text{
+        font-size: 18px;
+        top: 20px;
+        right: 10px;
+    }
+    .element-middle-text{
+        font-size: 36px;
+        top: 20px;
+        right: 10px;
+    }
+    .element-large-text {
+        font-size: 45px;
+        top: 55px;
+        right: 10px; 
+    }
+    .info-element {
+        flex-direction: column;
+    }
+    .info-text {
+        font-size: 16px;
+        line-height: .7rem; 
+    }
+
+    .last-element {
+        width: 100%; 
+        height: auto;
+        margin: 80px;
+        border-radius: 1rem;
+        padding: 20px; 
+    }
+
+    .last-element-left {
+        top: 20px;
+        left: 10px; 
+        line-height: 1.2;
+    }
+
+    .last-element-left .text-100 {
+        font-size: 2rem;
+    }
+
+    .last-element-left .text {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+    .last-element img {
+        width: 100%;
+        position: relative;
+        top: auto;
+        left: 0;
+    }
+
+    .last-element-right {
+        top: auto;
+        right: 10px;
+        margin-top: 20px;
+    }
+
+    .last-element-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .last-element-right p {
+        width: 100%; 
+        padding-left: 0;
+        font-size: 1rem;
+    }
+
+    .last-element-right button {
+        width: 100%; 
+        max-width: 130px;
+        position: relative; 
+        right: 0;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 451px) {
+    .container{
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .cleaner{
+        clear: both;
+    }
+    .element{
+        width: 95%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .info-element{
+        width: 450px;
+        margin-bottom:80px;
+    }
+    .info-img{
+        display: flex;
+        justify-content: center;
+    }
+    .info-text{
+        text-align: center;
+    }
+    .last-element{
+        width: 445px;
+        max-width: 87%;
+        height: 500px;
+        margin: 80px 0px;
+    }
+    .last-element img{
+        width: 100%;
+        position: relative;
+        bottom: 110px;
+    }
+    .last-element-left{
+        text-align: center;
+        width: 100%;
+        padding-top: 120px;
+        line-height: 10px;
+    }
+    .last-element-right{
+        text-align: center;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .last-element-right p{
+        text-align: center;
+        width: 100%;
+    }
+}
 
 </style>
