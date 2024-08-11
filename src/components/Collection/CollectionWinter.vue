@@ -11,10 +11,10 @@
             <div class="aside-elements">
                 <h4>Collection</h4>
                 <ul class="aside-list">
-                    <li class="aside-lists"><router-link to="collection/spring-collection">Spring</router-link></li>
-                    <li class="aside-lists"><router-link to="collection/winter-collection">Winter</router-link></li>
-                    <li class="aside-lists"><router-link to="summer-collection">Summer</router-link></li>
-                    <li class="aside-lists"><router-link to="autumn-collection">Autumn</router-link></li>
+                    <li class="aside-lists"><router-link to="collection/spring-collection" class="link">Spring</router-link></li>
+                    <li class="aside-lists"><router-link to="collection/winter-collection" class="link">Winter</router-link></li>
+                    <li class="aside-lists"><router-link to="collection/summer-collection" class="link">Summer</router-link></li>
+                    <li class="aside-lists"><router-link to="collection/autumn-collection" class="link">Autumn</router-link></li>
                 </ul>
             </div>
         </aside>
@@ -174,7 +174,7 @@ export default {
 
     section{
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         align-items: stretch;
         margin: 40px 0px 0px 0px;
     }
@@ -183,6 +183,25 @@ export default {
         flex: 1;
         padding: 20px;
         max-width: 330px;
+    }
+
+    h4{
+        font-size: 22px;
+    }
+
+    .aside-lists{
+        list-style: none;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .aside-lists .link{
+        text-decoration: none;
+        color: #3d3c3c;
+    }
+    .aside-lists .link:hover{
+        font-size: 21px;
+        color: #f42c37;
     }
 
     main{
