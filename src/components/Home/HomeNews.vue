@@ -59,6 +59,7 @@ export default {
   .header{
       margin-top: 60px;
       line-height: 10px;
+      text-align: center;
   }
 
   .section{

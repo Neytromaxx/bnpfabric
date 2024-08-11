@@ -110,6 +110,7 @@
     .header{
         margin-top: 100px;
         line-height: 10px;
+        text-align: center;
     }
     .section{
         width: 1450px;

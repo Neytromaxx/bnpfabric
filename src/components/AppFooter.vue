@@ -92,8 +92,9 @@ export default {
     height: 45px;
     padding-left: 25px;
     border: 1px solid #f5f5f5;
+    outline: none;
     border-radius: 1.6rem;
-    background-color: #f5f5f5;
+    background: linear-gradient(to right, #f5f5f5, #9a9797) ;
     color: #525252;
   }
   .inputs .submit{
