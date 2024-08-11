@@ -4,6 +4,8 @@ import ViewCollection from '../views/ViewCollection'
 import ViewAbout from '@/views/ViewAbout'
 import ViewContact from '@/views/ViewContact'
 
+import CollectionWinter from '@/components/Collection/CollectionWinter'
+
 const routes = [
     {
         path: '/',
@@ -24,6 +26,11 @@ const routes = [
         path: '/contact',
         name: 'Contact',
         component: ViewContact
+    },
+    {
+        path: '/collection/winter-collection',
+        name: 'Winter Collection',
+        component: CollectionWinter
     }
 ]
 

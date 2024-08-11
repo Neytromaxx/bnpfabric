@@ -151,7 +151,7 @@ export default {
     .section .list a p{
         font-weight: bold;
     }
-    .section .list a p:hover{
+    .section .list-items:hover p{
         color: #f42c37;
     }
     .last-element{

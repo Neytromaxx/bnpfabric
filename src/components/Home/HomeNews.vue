@@ -75,6 +75,9 @@ export default {
       width: 430px;
       margin-right: 25px;
   }
+  .section .list .list-items:hover img{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.52), 0 10px 20px 0 rgba(0, 0, 0, 0.49);
+  }
   .section .list a{
       text-decoration: none;
       color: #000;
@@ -82,7 +85,7 @@ export default {
   }
   .section .list a img{
     width: 430px;
-    border: 1px solid #f8f8f8;
+    border: none;
     border-radius: 1rem;
   }
   .section .list a h2{

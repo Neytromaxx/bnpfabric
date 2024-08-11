@@ -1,16 +1,25 @@
 <template>
     <div class="container">
-        <div class="tab-container">
-          <div class="tabheader">
-            <div 
-              v-for="(tab, index) in tabs" 
-              :key="index" 
-              :class="['tabheader__item', { 'tabheader__item_active': activeTab === index }]" 
-              @click="selectTab(index)">
-              {{ tab }}
+        <header>
+            <form>
+                <input type="search" name="search" id="search">
+                <img src="../../assets/search.png" alt="search">
+            </form>
+        </header>
+        <aside>
+            <div class="tab-container">
+                <div class="tabheader">
+                    <div 
+                      v-for="(tab, index) in tabs" 
+                      :key="index" 
+                      :class="['tabheader__item', { 'tabheader__item_active': activeTab === index }]" 
+                      @click="selectTab(index)">
+                      {{ tab }}
+                    </div>
+                </div>
             </div>
-          </div>
-      
+        </aside>
+        <div class="tab-container">
           <div class="tabcontent-container">
             <div 
               v-for="(content, index) in tabContents" 
@@ -29,7 +38,7 @@
     data() {
       return {
         activeTab: 0,
-        tabs: ['Tab 1', 'Tab 2', 'Tab 3', 'Tab 4'],
+        tabs: ['Spring collection', 'Winter collection', 'Summer Collection', 'Tab 4'],
         tabContents: [
           'Content for Tab 1',
           'Content for Tab 2',
@@ -72,21 +81,3 @@
       border: 1px solid #ccc;
     }
 </style>
-  
-
-
-<!-- <template>
-  <div class="container">
-
-  </div>
-</template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style> -->

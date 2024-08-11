@@ -1,16 +1,19 @@
 <template>
   <app-page title="Collection"></app-page>
-  <app-collection></app-collection>
+  <collection-winter></collection-winter>
+  <collection-summer></collection-summer>
 </template>
 
 <script>
 import AppPage from '@/components/ui/AppPage.vue';
-import AppCollection from '@/components/Collection/AppCollection.vue';
+import CollectionSummer from '@/components/Collection/CollectionSummer.vue';
+import CollectionWinter from '@/components/Collection/CollectionWinter.vue';
 
 export default {
   components:{
     AppPage,
-    AppCollection,
+    CollectionSummer,
+    CollectionWinter,
   }
 }
 </script>

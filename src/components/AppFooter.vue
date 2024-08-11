@@ -6,7 +6,7 @@
         <p>'Bukhara Natural Product' has been a company that produces cotton fabrics for many years for use all over the world.</p>
       </div>
       <div class="elements-items">
-        <h5 class="h5">Menu</h5>
+        <h4 class="h5">Menu</h4>
         <ul class="menu-item">
           <li class="menu-items"><a href="#">Home</a></li>
           <li class="menu-items"><a href="#">About us</a></li>
@@ -15,7 +15,7 @@
         </ul>
       </div>
       <div class="elements-items">
-        <h5 class="h5">Contacts</h5>
+        <h4 class="h5">Contacts</h4>
         <ul class="contact-item">
           <li class="contact-items">Bukhara, st. Alpomysh 80.</li>
           <li class="contact-items">Bnpuz@bk.ru</li>
@@ -26,7 +26,7 @@
         </ul>
       </div>
       <div class="elements-items inputs">
-        <h5>Subscribe to our email</h5>
+        <h4>Subscribe to our email</h4>
         <input type="email" name="" id="email" placeholder="Enter your email">
         <input type="submit" value="Subscribe" class="submit">
       </div>
