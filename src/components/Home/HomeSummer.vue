@@ -117,10 +117,14 @@
         flex-wrap: wrap;
     }
 
+    .list-items{
+        flex: 1;
+        text-align: center;
+    }
+
     .list-items a{
         text-decoration: none;
         color: #000;
-        text-align: left;
     }
 
     .list-items a img{

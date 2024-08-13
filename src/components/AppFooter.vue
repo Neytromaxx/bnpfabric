@@ -7,23 +7,23 @@
       </div>
       <div class="elements-items">
         <h4 class="h5">Menu</h4>
-        <ul class="menu-item">
-          <li class="menu-items"><a href="#">Home</a></li>
-          <li class="menu-items"><a href="#">About us</a></li>
-          <li class="menu-items"><a href="#">Collection</a></li>
-          <li class="menu-items"><a href="#">Contact</a></li>
-        </ul>
+        <div class="menu-item">
+          <div class="menu-items"><a href="#">Home</a></div>
+          <div class="menu-items"><a href="#">About us</a></div>
+          <div class="menu-items"><a href="#">Collection</a></div>
+          <div class="menu-items"><a href="#">Contact</a></div>
+        </div>
       </div>
       <div class="elements-items">
         <h4 class="h5">Contacts</h4>
-        <ul class="contact-item">
-          <li class="contact-items">Bukhara, st. Alpomysh 80.</li>
-          <li class="contact-items">Bnpuz@bk.ru</li>
-          <li class="contact-items">bnp_fabrik</li>
-          <li class="contact-items">info@bnpfabric.com</li>
-          <li class="contact-items">+998 93 383 75 85</li>
-          <li class="contact-items">+998 93 960 78 00</li>
-        </ul>
+        <div class="contact-item">
+          <div class="contact-items">Bukhara, st. Alpomysh 80.</div>
+          <div class="contact-items">Bnpuz@bk.ru</div>
+          <div class="contact-items">bnp_fabrik</div>
+          <div class="contact-items">info@bnpfabric.com</div>
+          <div class="contact-items">+998 93 383 75 85</div>
+          <div class="contact-items">+998 93 960 78 00</div>
+        </div>
       </div>
       <div class="elements-items inputs">
         <h4>Subscribe to our email</h4>
@@ -54,10 +54,16 @@ export default {
   .cleaner{
     clear: both;
   }
+
+  .elements{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .elements-items{
-    width: 330px;
+    /* width: 330px; */
     margin: 100px 0px 50px 0px;
-    float: left;
+    flex: 1;
     text-align: left;
   }
   .elements-items img{
@@ -124,6 +130,10 @@ export default {
     line-height: 60px;
     text-align: left;
   }
+
+@media (max-width: 1480px) {
+  
+}
 
 @media (max-width: 451px) {
   .container{

@@ -80,7 +80,7 @@ export default {
         clear: both;
     }
     .element{
-        width: 1450px;
+        width: 100%;
         height: 630px;
         border: 1px solid #464342;
         border-radius: 1.5rem;
@@ -90,7 +90,7 @@ export default {
         margin-bottom: 70px;
     }
     .element img{
-        width: 1350px;
+        width: 100%;
         height: 806px;
         position: absolute;
         right: 300px;
@@ -116,7 +116,7 @@ export default {
     }
     .info{
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         margin: 70px 0px 0px 0px;
     }
     .info-element{
@@ -139,7 +139,7 @@ export default {
         text-align: left;
     }
     .last-element{
-        width: 1450px;
+        width: 100%;
         height: 300px;
         margin: 150px 0px 80px 0px;
         border: 1px solid #616884;

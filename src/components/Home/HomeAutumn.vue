@@ -130,10 +130,13 @@
         flex-wrap: wrap;
     }
 
+    .list-items{
+        flex: 1;
+    }
+
     .list-items a{
         text-decoration: none;
         color: #000;
-        text-align: left;
     }
 
     .list-items a img{
@@ -151,7 +154,7 @@
         color: #f42c37;
     }
     .last-element{
-        width: 1450px;
+        width: 100%;
         height: 300px;
         margin: 150px 0px 80px 0px;
         border: 1px solid #616884;
