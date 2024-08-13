@@ -11,10 +11,10 @@
             <div class="aside-elements">
                 <h4>Collection</h4>
                 <ul class="aside-list">
-                    <li class="aside-lists"><router-link to="collection/spring-collection" class="link">Spring</router-link></li>
-                    <li class="aside-lists"><router-link to="collection/winter-collection" class="link">Winter</router-link></li>
-                    <li class="aside-lists"><router-link to="collection/summer-collection" class="link">Summer</router-link></li>
-                    <li class="aside-lists"><router-link to="collection/autumn-collection" class="link">Autumn</router-link></li>
+                    <li class="aside-lists"><router-link to="spring-collection" class="link">Spring</router-link></li>
+                    <li class="aside-lists"><router-link to="winter-collection" class="link">Winter</router-link></li>
+                    <li class="aside-lists"><router-link to="summer-collection" class="link">Summer</router-link></li>
+                    <li class="aside-lists"><router-link to="autumn-collection" class="link">Autumn</router-link></li>
                 </ul>
             </div>
         </aside>
@@ -31,7 +31,7 @@
             <div class="main-elements">
                 <div class="main-list">
                     <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
+                        <router-link to="product/squares" class="link">
                             <img src="../../assets/winter-squares.jpg" alt="">
                             <div class="text">
                                 <p>Squares</p>

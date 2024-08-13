@@ -33,7 +33,24 @@
     </div>
 </template>
   
-<script>
+<script setup>
+import { ref } from 'vue';
+
+const activeTab = ref(0);
+const tabs = ['Spring collection', 'Winter collection', 'Summer Collection', 'Tab 4'];
+const tabContents = [
+  'Content for Tab 1',
+  'Content for Tab 2',
+  'Content for Tab 3',
+  'Content for Tab 4'
+];
+
+function selectTab(index) {
+  activeTab.value = index;
+}
+</script>
+
+<!-- <script>
   export default {
     data() {
       return {
@@ -53,7 +70,7 @@
       }
     }
   };
-</script>
+</script> -->
   
 <style scoped>
     .container{

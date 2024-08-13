@@ -3,6 +3,7 @@ import ViewHome from '../views/ViewHome.vue'
 import ViewCollection from '../views/ViewCollection'
 import ViewAbout from '@/views/ViewAbout'
 import ViewContact from '@/views/ViewContact'
+import ViewPage from '@/views/ViewPage'
 
 import CollectionWinter from '@/components/Collection/CollectionWinter'
 
@@ -28,10 +29,20 @@ const routes = [
         component: ViewContact
     },
     {
-        path: '/collection/winter-collection',
+        path: '/product',
+        name: 'Pages',
+        component: ViewPage
+    },
+    {
+        path: '/winter-collection',
         name: 'Winter Collection',
         component: CollectionWinter
-    }
+    },
+    {
+        path: '/product/squares',
+        name: 'Squares',
+        component: () => import('@/pages/PageSquare')
+    },
 ]
 
 const router = createRouter({

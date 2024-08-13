@@ -56,6 +56,7 @@ export default {
   }
   .elements-items{
     width: 330px;
+    margin: 100px 0px 50px 0px;
     float: left;
     text-align: left;
   }
