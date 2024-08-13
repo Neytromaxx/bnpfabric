@@ -115,7 +115,7 @@ export default {
     .container{
         margin: 0 auto;
         max-width: 1450px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
     }
 
     .cleaner{

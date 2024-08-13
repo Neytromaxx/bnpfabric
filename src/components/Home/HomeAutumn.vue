@@ -5,88 +5,88 @@
           <p>Bukhara Natural Product</p>
       </div>
       <div class="section">
-          <ul class="list">
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-squares.jpg" alt="">
-                      <div class="text">
-                          <p>Squares</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-ikat.jpg" alt="">
-                      <div class="text">
-                          <p>Ikat</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-circles.jpg" alt="">
-                      <div class="text">
-                          <p>Circles</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-geometry--blue.jpg" alt="">
-                      <div class="text">
-                          <p>Geometry blue</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-tropical--leaves.jpg" alt="">
-                      <div class="text">
-                          <p>Tropical leaves</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-bambi.jpg" alt="">
-                      <div class="text">
-                          <p>Bambi</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-byzantiyum.jpg" alt="">
-                      <div class="text">
-                          <p>Byzantium</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-evening.jpg" alt="">
-                      <div class="text">
-                          <p>Evening garden</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-feather--marqius.jpg" alt="">
-                      <div class="text">
-                          <p>Feather Marquis</p>
-                      </div>
-                  </a>
-              </li>
-              <li class="list-items">
-                  <a href="">
-                      <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                      <div class="text">
-                          <p>Lavender roses</p>
-                      </div>
-                  </a>
-              </li>
-          </ul>
+        <div class="list">
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-squares.jpg" alt="">
+                    <div class="text">
+                        <p>Squares</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-ikat.jpg" alt="">
+                    <div class="text">
+                        <p>Ikat</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-circles.jpg" alt="">
+                    <div class="text">
+                        <p>Circles</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-geometry--blue.jpg" alt="">
+                    <div class="text">
+                        <p>Geometry blue</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-tropical--leaves.jpg" alt="">
+                    <div class="text">
+                        <p>Tropical leaves</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-bambi.jpg" alt="">
+                    <div class="text">
+                        <p>Bambi</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-byzantiyum.jpg" alt="">
+                    <div class="text">
+                        <p>Byzantium</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-evening.jpg" alt="">
+                    <div class="text">
+                        <p>Evening garden</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-feather--marqius.jpg" alt="">
+                    <div class="text">
+                        <p>Feather Marquis</p>
+                    </div>
+                </router-link>
+            </div>
+            <div class="list-items">
+                <router-link to="product/squares">
+                    <img src="../../assets/winter-lavender-roses.jpg" alt="">
+                    <div class="text">
+                        <p>Lavender roses</p>
+                    </div>
+                </router-link>
+            </div>
+        </div>
       </div>
       <div class="cleaner"></div>
       <div class="last-element">
@@ -125,32 +125,28 @@
         line-height: 10px;
         text-align: center;
     }
-    .section{
-        width: 1450px;
-        height: 550px;
-        margin-top: 35px;
+    .list {
+        display: flex;
+        flex-wrap: wrap;
     }
-    .section .list{
-        list-style: none;
-    }
-    .section .list .list-items{
-        float: left;
-    }
-    .section .list a{
+
+    .list-items a{
         text-decoration: none;
         color: #000;
         text-align: left;
     }
-    .section .list a img{
-        width: 260px;
+
+    .list-items a img{
+        width: 270px;
         height: 170px;
-        margin: 35px 18px 0px 0px;
-        border: 1px solid #f8f8f8;
+        margin: 35px 20px 0px 0px;
         border-radius: 1rem;
     }
+
     .section .list a p{
         font-weight: bold;
     }
+
     .section .list-items:hover p{
         color: #f42c37;
     }
