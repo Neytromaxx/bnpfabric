@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import ViewHome from '../views/ViewHome.vue'
-import ViewCollection from '../views/ViewCollection'
 import ViewAbout from '@/views/ViewAbout'
 import ViewContact from '@/views/ViewContact'
 import ViewPage from '@/views/ViewPage'
@@ -16,7 +15,8 @@ const routes = [
     {
         path: '/collection',
         name: 'Collection',
-        component: ViewCollection
+        component: () => import('@/views/ViewCollection')
+        // component: () => import('@/components/Collection/AppCollection')
     },
     {
         path: '/about',
@@ -37,6 +37,21 @@ const routes = [
         path: '/winter-collection',
         name: 'Winter Collection',
         component: CollectionWinter
+    },
+    {
+        path: '/summer-collection',
+        name: 'Summer Collection',
+        component: () => import('@/components/Collection/CollectionSummer')
+    },
+    {
+        path: '/autumn-collection',
+        name: 'Autumn Collection',
+        component: () => import('@/components/Collection/CollectionAutumn')
+    },
+    {
+        path: '/spring-collection',
+        name: 'Spring Collection',
+        component: () => import('@/components/Collection/CollectionSpring')
     },
     {
         path: '/product/squares',
