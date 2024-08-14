@@ -1,5 +1,4 @@
 <template>
-    <app-page title="Collection"></app-page>
     <div class="container">
       <section>
           <aside>
@@ -12,160 +11,160 @@
               <div class="aside-elements">
                   <h4>Collection</h4>
                   <ul class="aside-list">
-                      <li class="aside-lists"><router-link to="/spring-collection" class="link">Spring</router-link></li>
-                      <li class="aside-lists"><router-link to="/winter-collection" class="link">Winter</router-link></li>
-                      <li class="aside-lists"><router-link to="/summer-collection" class="link">Summer</router-link></li>
-                      <li class="aside-lists"><router-link to="/autumn-collection" class="link">Autumn</router-link></li>
+                      <li class="aside-lists"><router-link to="spring-collection" class="link">Spring</router-link></li>
+                      <li class="aside-lists"><router-link to="winter-collection" class="link">Winter</router-link></li>
+                      <li class="aside-lists"><router-link to="summer-collection" class="link">Summer</router-link></li>
+                      <li class="aside-lists"><router-link to="autumn-collection" class="link">Autumn</router-link></li>
                   </ul>
               </div>
           </aside>
           <main>
               <header>
                   <div class="header-text">
-                      <h1>Collection</h1>
-                      <p>Showing 1-16 of 76</p>
+                      <h1>Summer Collection</h1>
+                      <p>Showing 1-16 of 23</p>
                   </div>
                   <div class="initial-sort">
                       Initial sort
                   </div>
               </header>
+              <div class="main-elements">
               <div class="main-list">
-                    <div class="main-lists">
+                      <div class="main-lists">
+                          <router-link to="product/squares" class="link">
+                              <img src="../../assets/winter-squares.jpg" alt="">
+                              <div class="text">
+                                  <p>Squares</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
                         <router-link to="product/squares" class="link">
-                            <img src="../../assets/winter-squares.jpg" alt="">
-                            <div class="text">
-                                <p>Squares</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                      <router-link to="product/squares" class="link">
-                            <img src="../../assets/winter-ikat.jpg" alt="">
-                            <div class="text">
-                                <p>Ikat</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-circles.jpg" alt="">
-                            <div class="text">
-                                <p>Circles</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-geometry--blue.jpg" alt="">
-                            <div class="text">
-                                <p>Geometry blue</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-tropical--leaves.jpg" alt="">
-                            <div class="text">
-                                <p>Tropical leaves</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-bambi.jpg" alt="">
-                            <div class="text">
-                                <p>Bambi</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-byzantiyum.jpg" alt="">
-                            <div class="text">
-                                <p>Byzantium</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-evening.jpg" alt="">
-                            <div class="text">
-                                <p>Evening garden</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-feather--marqius.jpg" alt="">
-                            <div class="text">
-                                <p>Feather Marquis</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-ikat.jpg" alt="">
+                              <div class="text">
+                                  <p>Ikat</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-circles.jpg" alt="">
+                              <div class="text">
+                                  <p>Circles</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-geometry--blue.jpg" alt="">
+                              <div class="text">
+                                  <p>Geometry blue</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-tropical--leaves.jpg" alt="">
+                              <div class="text">
+                                  <p>Tropical leaves</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-bambi.jpg" alt="">
+                              <div class="text">
+                                  <p>Bambi</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-byzantiyum.jpg" alt="">
+                              <div class="text">
+                                  <p>Byzantium</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-evening.jpg" alt="">
+                              <div class="text">
+                                  <p>Evening garden</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-feather--marqius.jpg" alt="">
+                              <div class="text">
+                                  <p>Feather Marquis</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-lavender-roses.jpg" alt="">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-lavender-roses.jpg" alt="">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-lavender-roses.jpg" alt="">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
+                              <img src="../../assets/winter-lavender-roses.jpg" alt="">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div>
+                          </router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
                             <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div></router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
                             <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div></router-link>
+                      </div>
+                      <div class="main-lists">
+                          <router-link to="collection/squares" class="link">
                             <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                            <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div>
-                        </router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                          <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div></router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                          <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div></router-link>
-                    </div>
-                    <div class="main-lists">
-                        <router-link to="collection/squares" class="link">
-                          <img src="../../assets/winter-lavender-roses.jpg" alt="">
-                            <div class="text">
-                                <p>Lavender roses</p>
-                            </div>
-                        </router-link>
-                    </div>
-                </div>
+                              <div class="text">
+                                  <p>Lavender roses</p>
+                              </div>
+                          </router-link>
+                      </div>
+                  </div>
+              </div>
           </main>
       </section>
     </div>
   </template>
   
   <script>
-import AppPage from '../ui/AppPage.vue'
   export default {
-  components: { AppPage },
   
   }
   </script>
