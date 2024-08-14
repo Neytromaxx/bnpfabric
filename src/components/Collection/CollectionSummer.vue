@@ -24,9 +24,6 @@
                     <h1>Summer Collection</h1>
                     <p>Showing 1-16 of 23</p>
                 </div>
-                <div class="initial-sort">
-                    Initial sort
-                </div>
             </header>
             <div class="main-elements">
             <div class="main-list">

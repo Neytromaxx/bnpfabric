@@ -58,6 +58,11 @@ const routes = [
         name: 'Squares',
         component: () => import('@/pages/PageSquare')
     },
+    {
+        path: '/collection/squares',
+        name: 'Squares',
+        component: () => import('@/pages/PageSquare')
+    },
 ]
 
 const router = createRouter({
