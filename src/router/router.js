@@ -54,11 +54,6 @@ const routes = [
         component: () => import('@/components/Collection/CollectionSpring')
     },
     {
-        path: '/product/squares',
-        name: 'Squares',
-        component: () => import('@/pages/PageSquare')
-    },
-    {
         path: '/collection/squares',
         name: 'Squares',
         component: () => import('@/pages/PageSquare')

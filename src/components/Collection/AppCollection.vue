@@ -31,7 +31,7 @@
               <div class="main-elements">
               <div class="main-list">
                       <div class="main-lists">
-                          <router-link to="product/squares" class="link">
+                          <router-link to="collection/squares" class="link">
                               <img src="../../assets/winter-squares.jpg" alt="">
                               <div class="text">
                                   <p>Squares</p>
@@ -39,7 +39,7 @@
                           </router-link>
                       </div>
                       <div class="main-lists">
-                        <router-link to="product/squares" class="link">
+                        <router-link to="collection/squares" class="link">
                               <img src="../../assets/winter-ikat.jpg" alt="">
                               <div class="text">
                                   <p>Ikat</p>
